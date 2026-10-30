@@ -5,10 +5,6 @@ naturel, via une architecture **RAG** (Retrieval-Augmented Generation)
 avec support **OCR** pour les documents scannes (sans couche de texte
 numerique).
 
-> Pour une explication detaillee, pedagogique, de chaque etape du
-> pipeline (a destination de quelqu'un qui decouvre le projet), voir
-> [`DOCUMENTATION.md`](./DOCUMENTATION.md).
-
 ## Fonctionnalites
 
 - **Ingestion mixte** : detecte automatiquement si un PDF contient une
