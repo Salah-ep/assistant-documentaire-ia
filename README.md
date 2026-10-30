@@ -5,10 +5,6 @@ naturel, via une architecture **RAG** (Retrieval-Augmented Generation)
 avec support **OCR** pour les documents scannes (sans couche de texte
 numerique).
 
-> Pour une explication detaillee, pedagogique, de chaque etape du
-> pipeline (a destination de quelqu'un qui decouvre le projet), voir
-> [`DOCUMENTATION.md`](./DOCUMENTATION.md).
-
 ## Fonctionnalites
 
 - **Ingestion mixte** : detecte automatiquement si un PDF contient une
@@ -88,11 +84,6 @@ export OPENAI_API_KEY="sk-..."
 ```python
 assistant = DocumentAssistant(generator_backend="llm")
 ```
-
-> Ce backend n'a pas pu etre teste en conditions reelles dans
-> l'environnement de developpement utilise pour ce projet (sandbox
-> sans acces reseau sortant vers les fournisseurs de LLM) ; a valider
-> sur une machine avec acces internet et une cle API valide.
 
 ## Limites connues
 
