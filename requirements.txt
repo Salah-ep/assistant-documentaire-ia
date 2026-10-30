@@ -1,0 +1,13 @@
+pymupdf
+pdf2image
+pytesseract
+pillow
+spacy
+faiss-cpu
+reportlab
+requests
+
+# Modele d'embeddings francais pour spaCy (vecteurs de mots pre-entraines).
+# S'installe via un lien direct (wheel) plutot que via `spacy download`,
+# car hebergee sur GitHub Releases :
+# pip install https://github.com/explosion/spacy-models/releases/download/fr_core_news_md-3.8.0/fr_core_news_md-3.8.0-py3-none-any.whl
