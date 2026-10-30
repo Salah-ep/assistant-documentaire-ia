@@ -89,11 +89,6 @@ export OPENAI_API_KEY="sk-..."
 assistant = DocumentAssistant(generator_backend="llm")
 ```
 
-> Ce backend n'a pas pu etre teste en conditions reelles dans
-> l'environnement de developpement utilise pour ce projet (sandbox
-> sans acces reseau sortant vers les fournisseurs de LLM) ; a valider
-> sur une machine avec acces internet et une cle API valide.
-
 ## Limites connues
 
 - Les embeddings de mots spaCy (vecteurs moyennes par passage) sont
